@@ -1,0 +1,24 @@
+{
+  "name": "aave-agent-hub",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "prettier '**/*.{sol,ts}'",
+    "lint:fix": "npm run lint -- --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aave-dao/aave-agent-hub.git"
+  },
+  "keywords": [],
+  "author": "BGD labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aave-dao/aave-agent-hub/issues"
+  },
+  "homepage": "https://github.com/aave-dao/aave-agent-hub#readme",
+  "devDependencies": {
+    "lefthook": "^1.8.4",
+    "prettier": "^3.5.0",
+    "prettier-plugin-solidity": "^1.4.2"
+  }
+}

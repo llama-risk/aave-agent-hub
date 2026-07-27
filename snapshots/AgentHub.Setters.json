@@ -1,0 +1,21 @@
+{
+  "addAllowedMarket": "58913",
+  "addAllowedMarket (already added before)": "1494",
+  "addPermissionedSender": "76084",
+  "addRestrictedMarket": "76040",
+  "addRestrictedMarket (already added before)": "1521",
+  "registerAgent": "238037",
+  "removeAllowedMarket": "3989",
+  "removeAllowedMarket (already removed before)": "1549",
+  "removePermissionedSender": "3975",
+  "removeRestrictedMarket": "3928",
+  "removeRestrictedMarket (already removed before)": "1488",
+  "setAgentAddress": "14290",
+  "setAgentAdmin": "16690",
+  "setAgentAsPermissioned": "14322",
+  "setAgentContext": "20041",
+  "setAgentEnabled": "11457",
+  "setExpirationPeriod": "14221",
+  "setMarketsFromAgentEnabled": "14279",
+  "setMaxBatchSize": "13787"
+}
