@@ -24,9 +24,7 @@ coverage :; forge coverage --report lcov && \
 	'tests/*' \
 	'src/contracts/dependencies/*' \
 	'scripts/*' \
-	&& genhtml ./lcov.info.p -o report --branch-coverage \
-	&& coverage=$$(awk -F '[<>]' '/headerCovTableEntryHi/{print $3}' ./report/index.html | sed 's/[^0-9.]//g' | head -n 1); \
-	wget -O ./report/coverage.svg "https://img.shields.io/badge/coverage-$${coverage}%25-brightgreen" \
+	&& genhtml ./lcov.info.p -o report --branch-coverage
 
 # Deploy
 deploy-ledger :; FOUNDRY_PROFILE=${chain} forge script $(if $(filter zksync,${chain}),--zksync) ${contract} --rpc-url ${chain} $(if ${dry},--sender 0x25F2226B597E8F9514B3F68F00f494cF4f286491 -vvvv, --ledger --mnemonic-indexes ${MNEMONIC_INDEX} --sender ${LEDGER_SENDER} --verify -vvvv --slow --broadcast)

@@ -16,4 +16,9 @@ node_modules
 # ignore foundry deploy artifacts
 broadcast/
 
+# ignore locally generated coverage report
+report/
+lcov.info
+lcov.info.p
+
 .DS_Store

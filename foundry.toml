@@ -32,6 +32,7 @@ zksync = "${RPC_ZKSYNC}"
 [fuzz]
 runs = 10_000
 max_test_rejects = 500_000
+seed = "0x1"
 
 [etherscan]
 mainnet = { key="${ETHERSCAN_API_KEY_MAINNET}", chain=1 }

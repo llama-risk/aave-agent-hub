@@ -234,6 +234,15 @@ The AgentHub system implements a hierarchical permissions model to ensure secure
 
     On the RangeValidationModule, we configure the range configs for all default markets using the `setDefaultRangeConfig()` setter. This range config will be used for all markets unless overridden. For only a specific market if a different range config needs to be configured, it can be done using the `setRangeConfigByMarket()` setter. So if the range config is not set for a specific market, it fallbacks to the default range config.
 
+## Audits
+
+The Solidity code in this repository (`src/`, `tests/`, `scripts/`) is byte-identical to the audited Chaos Agents codebase at commit [`f02af714ef069e54bae577ac2d34bb3d57d6e1cd`](https://github.com/aave-dao/chaos-agents/tree/f02af714ef069e54bae577ac2d34bb3d57d6e1cd) of [aave-dao/chaos-agents](https://github.com/aave-dao/chaos-agents), so the existing audits carry over:
+
+- [Hexens](./audits/hexens/v1-hexens.pdf)
+- [Zellic](./audits/zellic/v1-zellic.pdf)
+
+Only documentation and naming were changed as part of the migration ("Chaos Agents" → "Aave Agent Hub"); no contract code was modified.
+
 ### Setup
 
 ```sh
