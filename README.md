@@ -236,7 +236,7 @@ The AgentHub system implements a hierarchical permissions model to ensure secure
 
 ## Audits
 
-The Solidity code in this repository (`src/`, `tests/`, `scripts/`) is byte-identical to the audited Chaos Agents codebase at commit [`f02af714ef069e54bae577ac2d34bb3d57d6e1cd`](https://github.com/aave-dao/chaos-agents/tree/f02af714ef069e54bae577ac2d34bb3d57d6e1cd) of [aave-dao/chaos-agents](https://github.com/aave-dao/chaos-agents), so the existing audits carry over:
+The Solidity code in this repository (`src/`, `tests/`, `scripts/`) is byte-identical to the audited Chaos Agents codebase at commit [`f02af714ef069e54bae577ac2d34bb3d57d6e1cd`](https://github.com/aave-dao/chaos-agents/tree/f02af714ef069e54bae577ac2d34bb3d57d6e1cd) of [aave-dao/chaos-agents](https://github.com/aave-dao/chaos-agents), a direct fork of `ChaosLabsInc/chaos-agents` — the repository referenced in the audit reports. The existing audits therefore carry over:
 
 - [Hexens](./audits/hexens/v1-hexens.pdf)
 - [Zellic](./audits/zellic/v1-zellic.pdf)
