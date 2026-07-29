@@ -1,11 +1,11 @@
 {
-  "getDefaultRangeConfig": "1712",
-  "getRangeConfigByMarket": "1970",
-  "setDefaultRangeConfig": "39092",
-  "setRangeConfigByMarket": "31065",
-  "validate: absolute change (default fallback config)": "4477",
-  "validate: absolute change (market config)": "2142",
-  "validate: no change (same from and to value)": "4609",
-  "validate: relative change (default fallback config)": "4616",
-  "validate: relative change (market config)": "2281"
+  "getDefaultRangeConfig": "3712",
+  "getRangeConfigByMarket": "3970",
+  "setDefaultRangeConfig": "61812",
+  "setRangeConfigByMarket": "62925",
+  "validate: absolute change (default fallback config)": "6477",
+  "validate: absolute change (market config)": "4142",
+  "validate: no change (same from and to value)": "6609",
+  "validate: relative change (default fallback config)": "6616",
+  "validate: relative change (market config)": "4281"
 }
